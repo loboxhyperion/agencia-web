@@ -29,49 +29,23 @@
 <a href="https://wa.me/573148056989?text=Hola!%20Quisiera%20más%20información%20sobre%20tus%20servicios%20de%20páginas%20web." class="float" target="_blank">
     <i class="fa-brands fa-whatsapp my-float"></i>
 </a>
-<!-------------------------------------------- MENU------------------------------------------------------>
-<!-------------------------------------------- MENU------------------------------------------------------>
-<!-------------------------------------------- MENU------------------------------------------------------>
+    <!-------------------------------------------- MENU------------------------------------------------------>
+    <!-------------------------------------------- MENU------------------------------------------------------>
+    <!-------------------------------------------- MENU------------------------------------------------------>
+    
+    <?php include('../../layout/menu.php'); ?>
 
-        <nav class="nav container" id="nav">
-            <div class="brand">
-                <a href="../../index.html" class="shadow-drop-center nav_link"><img src="../../img/logo.png" alt="logo" class="logo"></a>
-            </div>
-
-            <ul class="nav_links">
-                <li class="nav_item"><a href="../nuestra-agencia-de-diseño-web/index.html" class="shadow-drop-center nav_link"><strong>Nosotros</strong></a></li>
-                <li class="nav_item dropdown">
-                    <a href="#" class="shadow-drop-center nav_link"><strong>Servicios</strong><i class="fa-solid fa-angle-down"></i></a>
-                    <ul class="submenu">
-                        <li><a href="landing-page.html" class="shadow-drop-center nav_link">Landing Pages</a></li>
-                        <li><a href="paginas-web.html" class="shadow-drop-center nav_link">Páginas web Perzonalizadas</a></li>
-                        <li><a href="estrategias-digitales.html" class="shadow-drop-center nav_link">Estrategias digitales</a></li>
-                    </ul>
-                </li>
-                <li class="nav_item"><a href="#portafolio" class="shadow-drop-center nav_link"><strong>Proyectos</strong></a></li>
-                <li class="nav_item"><a href="blog/index.php" class="shadow-drop-center nav_link"><strong>Blog</strong></a></li>
-                <li class="nav_item"><a href="../contacto/index.html" class="shadow-drop-center nav_link"><strong>Contacto</strong></a></li>
-            </ul>
-
-            <a href="#nav" class="nav_hamburguer">
-                <img src="../../assets/menu.svg" class="nav_icon">
-            </a>
-            <a href="#" class="nav_close">
-                <img src="../../assets/close.svg" class="nav_icon">
-            </a>
-            <!-- <button class="btn"><img src="img/icon.png" alt="">CONTACTO</button> -->
-        </nav>
-<!-------------------------------------------- BANNER------------------------------------------------------>
-<!-------------------------------------------- BANNER------------------------------------------------------>
-<!-------------------------------------------- BANNER------------------------------------------------------>
-        <!-------------------------------------------- SERVICIOS------------------------------------------------------>
-        <!-------------------------------------------- SERVICIOS------------------------------------------------------>
-        <!-------------------------------------------- SERVICIOS------------------------------------------------------>
+    <!-------------------------------------------- BANNER------------------------------------------------------>
+    <!-------------------------------------------- BANNER------------------------------------------------------>
+    <!-------------------------------------------- BANNER------------------------------------------------------>
+    <!-------------------------------------------- SERVICIOS------------------------------------------------------>
+    <!-------------------------------------------- SERVICIOS------------------------------------------------------>
+    <!-------------------------------------------- SERVICIOS------------------------------------------------------>
         <section class="plan">
             <div class="row">
                 <div class="title landing">
-                    <h1 class="section-heading">Estretegias digitales</h1>
-                    <p>En la era digital, es vital tener una estrategia clara. Nuestras estrategias digitales están diseñadas para ayudarte a alcanzar tus objetivos de negocio mediante la combinación de SEO, SEM, marketing de contenido y redes sociales. Creamos planes personalizados que se alinean con tus metas y recursos.</p>
+                    <h1 class="section-heading">LANDING PAGE</h1>
+                    <p>En Code Enchanters, entendemos que la primera impresión es crucial. Nuestro diseño web profesional combina estética y funcionalidad para crear sitios web que no solo se ven bien, sino que también ofrecen una experiencia de usuario excepcional. Utilizamos las últimas tecnologías y tendencias de diseño para asegurar que tu sitio web se destaque en el competitivo mercado digital.</p>
                     <br>
                     <br>
                 </div>
@@ -80,86 +54,91 @@
                 <div class="column">
                     <div class="card">
                         <div class="icon-wrapper">
-                            <i class="fa-solid fa-puzzle-piece"></i>
+                            <i class="fa-solid fa-chess-knight"></i>
                         </div>
-                        <h2 class="cabecera">Estrategias digitales<span>Inicial</span></h2>
-                        <p class="precio"><strong>500,000</strong><span>COP/MES + IVA</span></p>
+                        <h2 class="cabecera">LANDING PAGES<span>BASICO</span></h2>
+                        <p class="precio">799.000 <span>COP + IVA</span></p>
                         <a href="#contact" class="info" >Solicita más información</a>
                         <br>
                         <br>
-                        <p class="entrega">ENTREGA:PUEDE VARIAR</p>
-                        <br>
-                        <p>Ideal para pequeñas empresas o startups que buscan una estrategia digital sólida para establecer su presencia en línea.</p>
+                        <p class="entrega">ENTREGA:15 DÍAS</p>
                         <br>
                         <hr>
                         <br>
-                        <P>Auditoría inicial de presencia digital.</P>
-                        <P>Definición de objetivos digitales y KPIs./P>
-                        <P>Estrategia básica de SEO (recomendaciones generales).</P>
-                        <P>Plan de marketing de contenidos (sugerencias de temas).</P>
-                        <P>Recomendaciones para la optimización del sitio web (estructura y usabilidad).</P>
-                        <P>Reporte de avances y recomendaciones.</P>
+                        <p>Diseño landing page </p>
+                        <p>Banner estático</p>
+                        <p>Hasta 4 bloques navegables.</p>
+                        <p>Adaptable a Movil, Tablets y Computadores</p>
+                        <p>Links a Redes Sociales</p>
+                        <p>Formulario de Contacto (Básico)</p>
+                        <p>Google maps</p>
+                        <p>Certificado SSL</p>
+                        <p>Soporte y capacitación</p>
+                        <p>1 Cuentas de correo corporativo</p>
+                        <p>Botón WhatsApp</p>
+                        <p>Incluye Hosting y Dominio</p>
                     </div>
                 </div>
-                
 
                 <div class="column">
                     <div class="card">
                         <div class="icon-wrapper">
-                            <i class="fa-solid fa-puzzle-piece"></i>
+                            <i class="fa-regular fa-chess-queen"></i>
                         </div>
-                        <h2 class="cabecera">Estrategias digitales<span>Crecimiento Estratégico</span></h2>
-                        <p class="precio"><strong>1,200,000</strong><span>COP/MES+ IVA</span></p>
-                        <a href="#contact" class="info" >Solicita más información</a>
+                        <h2 class="cabecera">LANDING PAGES<span>AVANZADO</span></h2>
+                        <p class="precio">999.000 <span>COP + IVA</span></p>
+                        <a href="#contact" class="info" >Solicitar más información</a>
                         <br>
                         <br>
-                        <p class="entrega">ENTREGA:PUEDE VARIAR</p>
-                        <br>
-                        <p>Diseñado para empresas en crecimiento que necesitan una estrategia digital más completa para aumentar su alcance y conversiones.</p>
+                        <p class="entrega">ENTREGA:20 DÍAS</p>
                         <br>
                         <hr>
                         <br>
-                        <P>Auditoría de presencia digital y análisis de competidores.</P>
-                        <P>Definición y segmentación de audiencia objetivo.</P>
-                        <P>Definición de objetivos digitales y KPIs.</P>
-                        <P>Estrategia de SEO (análisis de palabras clave)</P>
-                        <P>Estrategia de marketing de contenidos (calendario editorial básico).</P>
-                        <P>Estrategia básica de SEM (recomendaciones de campañas pagas).</P>
-                        <P>Estrategia básica de email marketing (segmentación y automatización).</P>
-                        <P>Reporte de avances y recomendaciones.</P>
+                        <p>Diseño landing page </p>
+                        <p>Banner estático</p>
+                        <p>Hasta 4 bloques navegables.</p>
+                        <p>Adaptable a Movil, Tablets y Computadores</p>
+                        <p>Links a Redes Sociales</p>
+                        <p>Formulario de Contacto (Básico)</p>
+                        <p>Google maps</p>
+                        <p>Certificado SSL</p>
+                        <p>Soporte y capacitación</p>
+                        <p>1 Cuentas de correo corporativo</p>
+                        <p>Botón WhatsApp</p>
+                        <p>Amigable con el SEO</p>
+                        <p>Incluye Hosting y Dominio</p>
                     </div>
                 </div>
-
 
                 <div class="column">
                     <div class="card">
                         <div class="icon-wrapper">
-                            <i class="fa-solid fa-puzzle-piece"></i>
+                            <i class="fa-solid fa-chess-king"></i>
                         </div>
-                        <h2 class="cabecera">Estrategias digitales<span>Transformación Digital Completa</span></h2>
-                        <p class="precio"><strong>2,500,000</strong><span>COP/MES + IVA</span></p>
+                        <h2 class="cabecera">LANDING PAGES<span>PLAN SUPREMO</span></h2>
+                        <p class="precio"> 1.199.000<span> COP + IVA</span></p>
                         <a href="#contact" class="info" >Solicita más información</a>
                         <br>
                         <br>
-                        <p class="entrega">ENTREGA:PUEDE VARIAR</p>
-                        <br>
-                        <p>Perfecto para empresas que buscan una transformación digital completa con estrategias avanzadas y soporte continuo.</p>
+                        <p class="entrega">ENTREGA:25 DÍAS</p>
                         <br>
                         <hr>
                         <br>
-                        <P>Auditoría de presencia digital y análisis de competidores.</P>
-                        <P>Definición y segmentación de audiencia objetivo.</P>
-                        <P>Estrategia integral de SEO (análisis de palabras clave).</P>
-                        <P>Estrategia de marketing de contenidos avanzada (calendario editorial detallado).</P>
-                        <P>Estrategia de SEM (incluyendo recomendaciones para campañas de Google Ads).</P>
-                        <P>Estrategia avanzada de email marketing (automatización y personalización).</P>
-                        <P>Definición de objetivos digitales y KPIs.</P>
-                        <P>Guia de marketing digital enfocado en la empresa</P>
-                        <P>Reporte de avances y recomendaciones.</P>
+                        <p>Diseño landing page </p>
+                        <p>Banner estático</p>
+                        <p>Hasta 4 bloques navegables.</p>
+                        <p>Adaptable a Movil, Tablets y Computadores</p>
+                        <p>Links a Redes Sociales</p>
+                        <p>Formulario de Contacto (Básico)</p>
+                        <p>Google maps</p>
+                        <p>Certificado SSL</p>
+                        <p>Soporte y capacitación</p>
+                        <p>1 Cuentas de correo corporativo</p>
+                        <p>Botón WhatsApp</p>
+                        <p>Amigable con el SEO</p>
+                        <p>Incluye Hosting y Dominio</p>
                     </div>
                 </div>
-                
-
 
             </div>
         </section>
@@ -216,10 +195,11 @@
                 </div>
             </div>
             <div class="brand">
-                <img src="../../img/logo.png" alt="logo" class="logo">
+                <img src="img/logo.png" alt="logo" class="logo">
             </div>
         </section>
     </footer>
+    </main>
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>

@@ -27,41 +27,15 @@
         <i class="fa-brands fa-whatsapp my-float"></i>
     </a>
 
-<!-------------------------------------------- MENU------------------------------------------------------>
-<!-------------------------------------------- MENU------------------------------------------------------>
-<!-------------------------------------------- MENU------------------------------------------------------>
-
-    <nav class="nav container" id="nav">
-        <div class="brand">
-            <a href="../../index.html" class="shadow-drop-center nav_link"><img src="../../img/logo.png" alt="logo" class="logo"></a>
-        </div>
-
-        <ul class="nav_links">
-            <li class="nav_item"><a href="#about" class="shadow-drop-center nav_link"><strong>Nosotros</strong></a></li>
-            <li class="nav_item dropdown">
-                <a href="#" class="shadow-drop-center nav_link"><strong>Servicios</strong><i class="fa-solid fa-angle-down"></i></a>
-                <ul class="submenu">
-                    <li><a href="../Servicios/landing-page.html" class="shadow-drop-center nav_link">Landing Pages</a></li>
-                    <li><a href="../Servicios/paginas-web.html" class="shadow-drop-center nav_link">Páginas web Perzonalizadas</a></li>
-                    <li><a href="../Servicios/estrategias-digitales.html" class="shadow-drop-center nav_link">Estrategias digitales</a></li>
-                </ul>
-            </li>
-            <li class="nav_item"><a href="#portafolio" class="shadow-drop-center nav_link"><strong>Proyectos</strong></a></li>
-            <li class="nav_item"><a href="../../blog/index.php" class="shadow-drop-center nav_link"><strong>Blog</strong></a></li>
-            <li class="nav_item"><a href="../contacto/index.html" class="shadow-drop-center nav_link"><strong>Contacto</strong></a></li>
-        </ul>
-
-        <a href="#nav" class="nav_hamburguer">
-            <img src="../../assets/menu.svg" class="nav_icon">
-        </a>
-        <a href="#" class="nav_close">
-            <img src="../../assets/close.svg" class="nav_icon">
-        </a>
-        <!-- <button class="btn"><img src="img/icon.png" alt="">CONTACTO</button> -->
-    </nav>
-<!-------------------------------------------- PORTAFOLIO------------------------------------------------------>
-<!-------------------------------------------- PORTAFOLIO------------------------------------------------------>
-<!-------------------------------------------- PORTAFOLIO------------------------------------------------------>
+    <!-------------------------------------------- MENU------------------------------------------------------>
+    <!-------------------------------------------- MENU------------------------------------------------------>
+    <!-------------------------------------------- MENU------------------------------------------------------>
+    
+    <?php include('../../layout/menu.php'); ?>
+    
+    <!-------------------------------------------- PORTAFOLIO------------------------------------------------------>
+    <!-------------------------------------------- PORTAFOLIO------------------------------------------------------>
+    <!-------------------------------------------- PORTAFOLIO------------------------------------------------------>
     <section class="portafolio active" id="portafolio">
         
 

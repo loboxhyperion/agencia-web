@@ -26,58 +26,31 @@
 
 <body>
 
-<a href="https://wa.me/573148056989?text=Hola!%20Quisiera%20más%20información%20sobre%20tus%20servicios%20de%20páginas%20web." class="float" target="_blank">
-    <i class="fa-brands fa-whatsapp my-float"></i>
-</a>
-<!-------------------------------------------- MENU------------------------------------------------------>
-<!-------------------------------------------- MENU------------------------------------------------------>
-<!-------------------------------------------- MENU------------------------------------------------------>
-
-        <nav class="nav container" id="nav">
-            <div class="brand">
-                <a href="../../index.html" class="shadow-drop-center nav_link"><img src="../../img/logo.png" alt="logo" class="logo"></a>
+    <a href="https://wa.me/573148056989?text=Hola!%20Quisiera%20más%20información%20sobre%20tus%20servicios%20de%20páginas%20web." class="float" target="_blank">
+        <i class="fa-brands fa-whatsapp my-float"></i>
+    </a>
+    <!-------------------------------------------- MENU------------------------------------------------------>
+    <!-------------------------------------------- MENU------------------------------------------------------>
+    <!-------------------------------------------- MENU------------------------------------------------------>
+    
+    <?php include('../../layout/menu.php'); ?>
+    <!-------------------------------------------- BANNER------------------------------------------------------>
+    <!-------------------------------------------- BANNER------------------------------------------------------>
+    <!-------------------------------------------- BANNER------------------------------------------------------>
+    <!-------------------------------------------- SERVICIOS------------------------------------------------------>
+    <!-------------------------------------------- SERVICIOS------------------------------------------------------>
+    <!-------------------------------------------- SERVICIOS------------------------------------------------------>
+    <section class="plan">
+        <div class="row">
+            <div class="title landing">
+                <h1 class="section-heading">Diseño de paginas web perzonalizado</h1>
+                <p>Cada negocio es único, y tu página web también debería serlo. Nuestro servicio de desarrollo web personalizado garantiza que tu sitio web esté hecho a medida para satisfacer tus necesidades específicas. Desde tiendas en línea hasta plataformas complejas, tenemos la experiencia y las habilidades necesarias para llevar tu proyecto al siguiente nivel.</p>
+                <br>
+                <br>
             </div>
-
-            <ul class="nav_links">
-                <li class="nav_item"><a href="../nuestra-agencia-de-diseño-web/index.html" class="shadow-drop-center nav_link"><strong>Nosotros</strong></a></li>
-                <li class="nav_item dropdown">
-                    <a href="#" class="shadow-drop-center nav_link"><strong>Servicios</strong><i class="fa-solid fa-angle-down"></i></a>
-                    <ul class="submenu">
-                        <li><a href="landing-page.html" class="shadow-drop-center nav_link">Landing Pages</a></li>
-                        <li><a href="paginas-web.html" class="shadow-drop-center nav_link">Páginas web Perzonalizadas</a></li>
-                        <li><a href="estrategias-digitales.html" class="shadow-drop-center nav_link">Estrategias digitales</a></li>
-                    </ul>
-                </li>
-                <li class="nav_item"><a href="#portafolio" class="shadow-drop-center nav_link"><strong>Proyectos</strong></a></li>
-                <li class="nav_item"><a href="blog/index.php" class="shadow-drop-center nav_link"><strong>Blog</strong></a></li>
-                <li class="nav_item"><a href="../contacto/index.html" class="shadow-drop-center nav_link"><strong>Contacto</strong></a></li>
-            </ul>
-
-            <a href="#nav" class="nav_hamburguer">
-                <img src="./assets/menu.svg" class="nav_icon">
-            </a>
-            <a href="#" class="nav_close">
-                <img src="./assets/close.svg" class="nav_icon">
-            </a>
-            <!-- <button class="btn"><img src="img/icon.png" alt="">CONTACTO</button> -->
-        </nav>
-<!-------------------------------------------- BANNER------------------------------------------------------>
-<!-------------------------------------------- BANNER------------------------------------------------------>
-<!-------------------------------------------- BANNER------------------------------------------------------>
-        <!-------------------------------------------- SERVICIOS------------------------------------------------------>
-        <!-------------------------------------------- SERVICIOS------------------------------------------------------>
-        <!-------------------------------------------- SERVICIOS------------------------------------------------------>
-        <section class="plan">
-            <div class="row">
-                <div class="title landing">
-                    <h1 class="section-heading">Diseño de paginas web perzonalizado</h1>
-                    <p>Cada negocio es único, y tu página web también debería serlo. Nuestro servicio de desarrollo web personalizado garantiza que tu sitio web esté hecho a medida para satisfacer tus necesidades específicas. Desde tiendas en línea hasta plataformas complejas, tenemos la experiencia y las habilidades necesarias para llevar tu proyecto al siguiente nivel.</p>
-                    <br>
-                    <br>
-                </div>
-            </div>
-            <div class="row">
-                <div class="column">
+        </div>
+        <div class="row">
+            <div class="column">
                     <div class="card">
                         <div class="icon-wrapper">
                             <i class="fa-solid fa-building"></i>
@@ -109,9 +82,9 @@
                         <p>5 Cuentas de correo corporativo</p>
                     
                     </div>
-                </div>
+            </div>
 
-                <div class="column">
+            <div class="column">
                     <div class="card">
                         <div class="icon-wrapper">
                             <i class="fa-solid fa-building"></i>
@@ -146,9 +119,9 @@
                         <p>Galería de fotos</p>
                     
                     </div>
-                </div>
+            </div>
 
-                <div class="column">
+            <div class="column">
                     <div class="card">
                         <div class="icon-wrapper">
                             <i class="fa-solid fa-building"></i>
@@ -184,11 +157,11 @@
                         <p>Chat online</p>
                     
                     </div>
-                </div>
-
-
             </div>
-        </section>
+
+
+        </div>
+    </section>
         <!--------------------------------------------Sobre nosotros------------------------------------------------------>
         <!--------------------------------------------Sobre nosotros------------------------------------------------------>
         <!--------------------------------------------Sobre nosotros------------------------------------------------------>

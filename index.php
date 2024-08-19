@@ -37,34 +37,7 @@
         <!-------------------------------------------- MENU------------------------------------------------------>
         <!-------------------------------------------- MENU------------------------------------------------------>
 
-        <nav class="nav container" id="nav">
-            <div class="brand">
-                <a href="#banner" class="shadow-drop-center nav_link"><img src="img/logo.png" alt="logo" class="logo"></a>
-            </div>
-
-            <ul class="nav_links">
-                <li class="nav_item"><a href="views/nuestra-agencia-de-diseño-web/index.html" class="shadow-drop-center nav_link"><strong>Nosotros</strong></a></li>
-                <li class="nav_item dropdown">
-                    <a href="#" class="shadow-drop-center nav_link"><strong>Servicios </strong><i class="fa-solid fa-angle-down"></i></a>
-                    <ul class="submenu">
-                        <li><a href="views/Servicios/landing-page.html" class="shadow-drop-center nav_link">Landing Pages</a></li>
-                        <li><a href="views/Servicios/paginas-web.html" class="shadow-drop-center nav_link">Páginas Web Perzonalizadas</a></li>
-                        <li><a href="views/Servicios/estrategias-digitales.html" class="shadow-drop-center nav_link">Estrategias Digitales</a></li>
-                    </ul>
-                </li>
-                <li class="nav_item"><a href="views/portafolio/index.html" class="shadow-drop-center nav_link"><strong>Portafolio</strong></a></li>
-                <li class="nav_item"><a href="blog/index.php" class="shadow-drop-center nav_link"><strong>Blog</strong></a></li>
-                <li class="nav_item"><a href="views/contacto/index.html" class="shadow-drop-center nav_link"><strong>Contacto</strong></a></li>
-            </ul>
-
-            <a href="#nav" class="nav_hamburguer">
-                <img src="./assets/menu.svg" class="nav_icon">
-            </a>
-            <a href="#" class="nav_close">
-                <img src="./assets/close.svg" class="nav_icon">
-            </a>
-            <!-- <button class="btn"><img src="img/icon.png" alt="">CONTACTO</button> -->
-        </nav>
+        <?php include('layout/menu.php'); ?>
 
         <!-------------------------------------------- BANNER------------------------------------------------------>
         <!-------------------------------------------- BANNER------------------------------------------------------>
