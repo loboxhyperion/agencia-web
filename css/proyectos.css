@@ -1,0 +1,57 @@
+/*--------------------------------------------------------------------------------------- PROYECTOS SECTION-------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------- PROYECTOS SECTION-------------------------------------------------------------------------*/
+ .portafolio{
+    padding:var(--section-padding);
+ }
+
+ .portafolio p{
+    margin-bottom: 1.5rem;
+ }
+
+ .swiper{
+    /* width: 100%; */
+    display:grid;
+    gap:1rem;
+    /* grid-auto-rows: 25rem; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 1350px;
+    /* padding: 150px 0 50 0; */
+}
+
+.swiper-slide{
+    width:100%;
+    height: 100%;
+    /* width:600px;
+    height:366px; */
+    background-color: #323232;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    /* padding:40px; */
+    text-align: center;
+}
+
+.slide{
+    width: 100%;
+    height: 100%;
+    
+    /* height: 100%;
+    object-fit: cover; */
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+@media (min-width:960px){
+
+    .portafolio{
+        text-align: center;
+    }
+    .portafolio p{
+        width:50%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+
+}

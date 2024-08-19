@@ -1,0 +1,163 @@
+footer .contact{
+    height:auto;
+    /* background:var(--third-color); */
+    background:#60289b;
+    color:var(--text-main-color);
+    padding:var(--section-padding);
+    display: flex; 
+    flex-direction: column;
+}
+
+footer .contact h2{
+    color:var(--secondary-color);
+}
+
+footer .contact p{
+    margin-bottom: 1.5rem;
+}
+footer .contact p strong{
+    color:var(--secondary-color);
+}
+footer .contact .contact-content{
+    justify-content: center;
+    gap:1.5rem;
+    margin: 0 auto;
+    border-radius: 5px;
+
+}
+footer .contact .contact-content .contact-resume{
+    margin-bottom: 2rem;
+}
+
+footer .contact .contact-content .contact-form form  input[type="text"],
+footer .contact .contact-content .contact-form form  input[type="email"],
+footer .contact .contact-content .contact-form form  textarea{
+    width: 100%;
+    margin: 5px 0;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color:#08311c;
+    border: 2px solid rgba(204, 204, 204, 0.383);
+    font-family: 'lato';
+    font-weight: 300;
+}
+
+footer .contact .contact-content .contact-form form input[type="submit"]:hover{
+    background: #60289b;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color:var(--secondary-color);
+}
+
+footer .contact .contact-content .contact-form .derecha input{
+    width: 100%;
+    padding: 1rem;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    color:#08311c;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+ }
+
+ /*------------------------------------------------------ POLITICAS--------------------------------------- */
+/*------------------------------------------------------ POLITICAS--------------------------------------- */
+/*------------------------------------------------------ POLITICAS--------------------------------------- */
+.politicas{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;  
+    place-items: center;
+    text-align: center;
+    /* flex-wrap: wrap; */
+    /* gap:15%; */
+    padding:3rem 1rem;
+}
+
+.politicas .privacidad{
+    display:flex;
+    text-decoration: none;
+    gap:0.5rem;
+}
+
+.politicas .redes{
+    margin: 2rem 0;
+}
+
+.politicas .redes .content h3{
+    color:var(--primary-color);
+}
+
+.politicas .redes .content p{
+    /* color:var(--primary-color); */
+}
+
+.politicas .redes .social{
+    margin-top: 1rem;
+}
+
+.politicas .redes .social a i{
+    font-size: 30px;
+}
+.politicas .brand{
+    /* width:100%; */
+    /* height: 100%; */
+}
+
+.politicas .brand img{
+    width:150px;
+    height: auto;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px){
+
+  
+}
+
+
+@media (min-width:960px){
+
+    footer .contact p{
+        font-size: 20px;
+    }
+    
+    footer .contact .contact-content{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 992px){
+    
+}
+
+@media screen and (min-width:1100px){
+    .politicas{
+        flex-direction: row;
+        justify-content: center;  
+        place-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        gap:15%;
+        padding:3rem 1rem;
+    }
+
+    .politicas .privacidad{
+        display:grid;
+        text-align: left;
+    }
+}
+
+@media (min-width:1249px){
+    
+    footer{
+        margin-top:8rem;
+    }
+
+
+    footer .contact {
+        padding: 7rem 10rem; 
+    }
+}
+

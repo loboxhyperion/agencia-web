@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --section-padding: 3rem 1rem ;
+    --section-padding-x2: 10rem 3rem ;
+    --section-space: 7rem 0;
+    --subsection-padding: 3rem 1rem;
+    --subsection-padding-x2: 3rem 10rem;
+    --intro-padding:3rem;
+    --between-section-space: 3rem;
+    --section-space-sides: 0 1rem ;
+    --primary-color:#742cc4;
+    --secondary-color:#ACFB34;
+    --third-color:#2d2d2d;
+    --four-color:#ffffff;
+    --text-main-color:#fff;
+    --text-second-color:#ACFB34;
+  }
+
+h1{
+    text-align: center;
+}
+h2,h4{
+    color:var(--primary-color);
+    /* font-size: 25px; */
+    font-weight: 800;
+    margin-bottom: 2rem;
+ }
+
+ a{
+    text-decoration: none;
+    color:#000;
+}
+
+ .content p{
+    font-size: 15px;
+}
+
+.contenedor{
+    width:100%;
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)),url(img/banner.jpg); */
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+    height: 100vh;
+    /* padding: 10px 8%; */
+    color:var( --text-main-color);
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    /* max-width: 1550px; */
+    overflow: hidden;
+}
+
+
+@media (min-width:960px){
+
+    .main-content h2{
+        font-size: 42px;
+     }
+
+     .content h1{
+        font-size: 40px;
+     }
+
+     
+     .banner .content h2{
+        font-size: 20px;
+     }
+
+   
+    
+
+    .intro{
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+        text-wrap: balance;
+        margin-top:8rem;
+        padding: 15% 0;
+    
+    }
+    .portafolio{
+        text-align: center;
+    }
+    .portafolio p{
+        width:50%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    
+.contenedor .intro a{
+    width:30%;
+}
+    
+  
+    /* .services .services-box{
+        flex-direction: unset;
+    } */
+
+    footer .contact p{
+        font-size: 20px;
+    }
+    
+    footer .contact .contact-content{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 992px){
+    
+}
+
+@media (min-width:1249px){
+    
+    .about{
+        padding: 5rem 10rem; 
+        margin:8rem 0;
+    }
+
+    footer{
+        margin-top:8rem;
+    }
+
+
+    footer .contact {
+        padding: 4rem 10rem; 
+    }
+}

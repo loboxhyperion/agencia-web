@@ -1,0 +1,152 @@
+
+
+.portafolio{
+ display: flex;
+ flex-direction: column;
+ gap:2.5rem;
+ overflow: hidden;
+ background: #f3f3f3;
+}
+
+.contenido{
+    padding: var(--subsection-padding);
+    /* width: 80%; */
+    /* max-width: 1500px; */
+    /* margin:auto; */
+}
+
+.portafolio .portada{
+    background-image:url(../../img/portada.png);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: var(--intro-padding) ;
+    text-align: center;
+    color: #ffffff;
+}
+
+.portafolio .portada h1,h2{
+    color:#ffffff;
+}
+
+.portafolio form{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.portafolio .barra-busqueda{
+    width:70%;
+    height:40px;
+    line-height: 40px;
+    background:#ffffff;
+    padding:0 1.5rem;
+    border-radius: 100px;
+    border:1px solid var(--primary-color);
+    text-align:center;
+    font-size:16px;
+}
+
+.portafolio .categorias{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.portafolio .categorias a{
+    color:#9b9b9b;
+    padding: 0.5rem;
+    margin:10px 20px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.portafolio .categorias a.activo{
+    color:var(--primary-color);
+   }
+
+
+/*  ---- ---- ---- GRID---- ---- ----*/
+/*  ---- ---- ---- GRID---- ---- ----*/
+/*  ---- ---- ---- GRID---- ---- ----*/
+.portafolio .grid{
+    width:100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.5s linear 1s;
+}
+
+.portafolio .grid.imagenes-cargadas{
+    opacity: 1;
+}
+.portafolio .grid .item{
+    position:absolute;
+    display: block;
+    margin-bottom: 2rem;
+    width:100%;
+    
+}
+
+.portafolio .grid .item-content{
+    position: relative;
+}
+.portafolio .grid .item img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+
+    .contenido{
+        padding: var(--subsection-padding-x2);
+    }
+
+    .portafolio{
+        padding:var(--section-space);
+    }
+
+    .portafolio .barra-busqueda{
+        width:40%;
+        height:40px;
+        line-height: 40px;
+        background:#ffffff;
+        padding:0 1.5rem;
+        border-radius: 100px;
+        border:1px solid var(--primary-color);
+        text-align:center;
+        font-size:16px;
+    }
+
+    .portafolio .categorias{
+        display:flex;
+        flex-direction:unset;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+/*  ---- ---- ---- GRID---- ---- ----*/
+/*  ---- ---- ---- GRID---- ---- ----*/
+/*  ---- ---- ---- GRID---- ---- ----*/
+    .portafolio .grid{
+        flex-direction: unset;
+        flex-wrap: wrap;
+        opacity: 0;
+        transition: opacity 0.5s linear 1s;
+    }
+
+    .portafolio .grid .item{
+        padding: 0 1rem;
+        width:33.333333%;
+    } 
+    
+}

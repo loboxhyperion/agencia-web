@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h2 {
+    color: #742cc4; /* Color principal */
+}
+
+.contacto {
+    padding: 20px 15px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contenedores {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.subtitulo {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #742cc4; /* Color principal */
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #742cc4; /* Color principal */
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+}
+
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+    border-color: #ACFB34; /* Color secundario */
+    outline: none;
+}
+
+.boton {
+    padding: 10px 20px;
+    background-color: #742cc4; /* Color principal */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.boton:hover {
+    background-color: #5e22a3; /* Color principal más oscuro */
+    transition: 0.3s;
+}
+
+.contacto-info {
+    margin-top: 20px;
+}
+
+.contacto-info p {
+    margin: 5px 0;
+    color: #742cc4; /* Color principal */
+}
+
+.contacto-info a {
+    color: #742cc4; /* Color principal */
+    text-decoration: none;
+}
+
+.contacto-info a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .contenedores {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .contacto{
+        padding-top:10rem;
+    }
+
+    .formulario-contacto {
+        padding: 30px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .boton {
+        padding: 12px 24px;
+        font-size: 1.2em;
+    }
+
+    .contacto-info {
+        text-align: left;
+    }
+}
+
