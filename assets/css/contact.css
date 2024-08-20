@@ -3,15 +3,22 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    background-color: #f9f9f9;
 }
 
-h2 {
-    color: #742cc4; /* Color principal */
+.contacto h2{
+    color: var(--four-color); /* Color principal */
+}
+
+.contacto p{
+    color: var(--four-color); /* Color principal */
 }
 
 .contacto {
-    padding: 20px 15px;
-    background-color: #f9f9f9;
+
+    /* padding: 20px 15px; */
+    padding:var(--section-padding);
+    background:#60289b;
     text-align: center;
 }
 
@@ -83,11 +90,11 @@ h2 {
 
 .contacto-info p {
     margin: 5px 0;
-    color: #742cc4; /* Color principal */
+    color: var(--four-color); /* Color principal */
 }
 
 .contacto-info a {
-    color: #742cc4; /* Color principal */
+    color: var(--secondary-color); /* Color principal */
     text-decoration: none;
 }
 
@@ -103,7 +110,8 @@ h2 {
     }
     
     .contacto{
-        padding-top:10rem;
+        padding:var(--section-padding-x2);
+        /* padding-top:10rem; */
     }
 
     .formulario-contacto {

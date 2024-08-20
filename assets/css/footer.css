@@ -13,6 +13,7 @@ footer .contact h2{
 }
 
 footer .contact p{
+    color:var(--four-color);
     margin-bottom: 1.5rem;
 }
 footer .contact p strong{
@@ -43,10 +44,10 @@ footer .contact .contact-content .contact-form form  textarea{
 }
 
 footer .contact .contact-content .contact-form form input[type="submit"]:hover{
-    background: #60289b;
+    background: #65b400;
     border-radius: 0.5rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    color:var(--secondary-color);
+    color:var(--four-color);
 }
 
 footer .contact .contact-content .contact-form .derecha input{
@@ -55,7 +56,8 @@ footer .contact .contact-content .contact-form .derecha input{
     justify-content: center;
     background-color: var(--secondary-color);
     box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
-    color:#08311c;
+    color:var(--four-color);
+    font-weight: bold;
     border-radius: 10px;
     font-size: 25px;
     cursor: pointer;
@@ -73,6 +75,7 @@ footer .contact .contact-content .contact-form .derecha input{
     /* flex-wrap: wrap; */
     /* gap:15%; */
     padding:3rem 1rem;
+    background: #f3f3f3;
 }
 
 .politicas .privacidad{
@@ -98,6 +101,7 @@ footer .contact .contact-content .contact-form .derecha input{
 }
 
 .politicas .redes .social a i{
+    color:var(--primary-color);
     font-size: 30px;
 }
 .politicas .brand{

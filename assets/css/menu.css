@@ -11,6 +11,7 @@
     justify-content: space-between;
     align-items: center;
     grid-template-columns: repeat(2, max-content);
+    color:var(--primary-color);
 }
 
 /* cuando la etiqueta nav este siendo apuntada,  por eso en el a del hamburguer se referencio a #nav*/
@@ -61,7 +62,7 @@
 }
 
 .nav .nav_links{
-    background-color: #2d2d2d;
+    background-color: #ffffff;
     position:absolute;
     top:0;
     bottom: 0;
@@ -101,6 +102,9 @@
     margin-right: 10px;
 }
 
+.submenu{
+    list-style:none;
+}
 
 
 
@@ -169,7 +173,8 @@
     }
     .nav_item a:hover{
         /* color:var(--secondary-color); */
-        border-bottom: 5px solid var(--secondary-color);
+        border-bottom: 4px solid #65b400;
+        padding-bottom: 0.4rem;
     }
 
     /* Configuración de la posición del submenú */

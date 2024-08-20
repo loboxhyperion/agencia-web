@@ -17,11 +17,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="style.css"> -->
-    <link rel="stylesheet" href="../../css/base.css">
-    <link rel="stylesheet" href="../../css/menu.css">
-    <link rel="stylesheet" href="../../css/plan.css">
-    <link rel="stylesheet" href="../../css/footer.css">
-    <link rel="stylesheet" href="../../css/whatsapp.css">
+    <link rel="stylesheet" href="../../assets/css/base.css">
+    <link rel="stylesheet" href="../../assets/css/menu.css">
+    <link rel="stylesheet" href="../../assets/css/plan.css">
+    <link rel="stylesheet" href="../../assets/css/contact.css">
+    <link rel="stylesheet" href="../../assets/css/footer.css">
+    <link rel="stylesheet" href="../../assets/css/whatsapp.css">
 </head>
 
 <body>
@@ -152,57 +153,19 @@
         <!--------------------------------------------Portafolio------------------------------------------------------>
 
 
-<!--------------------------------------------CONTACTO------------------------------------------------------>
-<!--------------------------------------------CONTACTO------------------------------------------------------>
-<!--------------------------------------------CONTACTO------------------------------------------------------>
+    <!--------------------------------------------CONTACTO------------------------------------------------------>
+    <!--------------------------------------------CONTACTO------------------------------------------------------>
+    <!--------------------------------------------CONTACTO------------------------------------------------------>
     <footer>
-        <section class="contact" id="contact">
-            <div class="contact-content">
-                <div class="contact-resume">
-                    <h2>Contacta con nosostros</h2>
-                    <P>¿Listo para llevar tu negocio al siguiente nivel? Contáctanos hoy mismo para discutir cómo podemos ayudarte con nuestras soluciones digitales integrales. Estamos aquí para responder a todas tus preguntas y proporcionarte el mejor servicio.</P>
-                    <p class="contact_mail"><strong>info@codeenchanters.com</strong></p>
-                </div>
-                <div class="contact-form">
-                    <form id="myForm" action="procesar_formulario.php" class="formulario" method="POST">
-                        <input type="text" placeholder="Nombre" id="nombre" name="nombre" required >
-                        <input type="email" placeholder="Correo" id="correo" name="email" required class="email">
-                        <textarea name="mensaje" id="mensaje" placeholder="Mensaje:"></textarea>
-                        <div class="derecha">
-                                <input class="btn derecha" type="submit" value="Contactar" name="submmit">
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
+        <?php include('../../layout/contact.php'); ?>
         <!--------------------------------------------POLITICAS------------------------------------------------->
         <!--------------------------------------------POLITICAS------------------------------------------------------>
-        <section class="politicas">
-            <div class="privacidad">
-                <a href="">Aviso Legal</a>
-                <a href="">Políticas de Privacidad</a>
-                <a href="">Políticas de Cookies</a>
-            </div>
-            <div class="redes">
-                <div class="content">
-                    <h3>Consulta en nuestras redes sociales</h3>
-                    <p>Para más información y novedades</p>
-                </div>
-                <div class="social">
-                    <a href="https://www.instagram.com/codee_enchanters/"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/company/code-enchanters/"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.facebook.com/people/Code-Enchanters/pfbid029TNHgvCN7NpKrgybe4wTkLEuoeAGtkZ8zFHP94fYwJerFMTXs6B4C6ZroGmrhggPl/"><i class="fa-brands fa-facebook"></i></a>
-                </div>
-            </div>
-            <div class="brand">
-                <img src="img/logo.png" alt="logo" class="logo">
-            </div>
-        </section>
+        <?php include('../../layout/footer.php'); ?>
     </footer>
-    </main>
+
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+    <script src="../../assets/js/main.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NVTHET035R"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-NVTHET035R'); </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>

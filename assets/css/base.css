@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #f9f9f9;
+}
+
 :root {
     --section-padding: 3rem 1rem ;
     --section-padding-x2: 10rem 3rem ;

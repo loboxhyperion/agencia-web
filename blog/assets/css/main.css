@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f9f9f9;
+}
+
+:root{
+    --section-padding: 3rem 3rem ;
+    --section-padding-x2: 3rem 13rem ;
+    --padding-article: 13rem 0;
+    --padding-lados:5rem 2rem;
+    --font-texto: 15px;
+    --primary-color:#60289b;
+    --secondary-color:#ACFB34;
+    --third-color:#2d2d2d;
+    --four-color:#ffffff;
+}
+
+h2,h4{
+    color:var(--primary-color);
+    /* font-size: 25px; */
+    font-weight: 800;
+    margin-bottom: 2rem;
+ }
+
+ a{
+    text-decoration: none;
+    color:#000;
+}
+
+/*--------------------------------------------------------------------------------------- ARTICLES SECTION-------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------- ARTICLES SECTION-------------------------------------------------------------------------*/
+.articles{
+    display: grid;
+    /* gap:2rem; */
+    /* padding: var(--padding-lados); */
+    overflow: hidden;
+}
+
+.articles .info{
+    background-image:url(../img/portada.png);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: var(--section-padding) ;
+    color: #ffffff;
+    text-align: center;
+}
+
+.articles .info h1 {
+    font-size: clamp(10px, 1vw + 1rem, 31px) ;
+    margin-bottom: 2rem;
+}
+.articles .info p {
+    /* width:50%; */
+    margin: 0 auto;
+}
+
+
+ .articles .list{
+    padding: var(--section-padding) ;
+    display:grid;
+    /* gap:0.5rem; */
+    gap:2rem;
+    grid-auto-rows: auto-fit;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+}
+
+.articles .list .item{
+    overflow: hidden;
+    background:var(--main-color);
+    border-radius: 0.3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    color:var(--third-color);
+    filter: grayscale(0%);
+    transition:0.5s ease-in;
+}
+
+.articles .list .item .item-img img{
+    width: 100%;
+    height: 250px;
+ }
+
+.articles .list .item .content,.date span{
+    padding: 1rem;
+}
+
+.articles .list .item .content h4{
+    text-align: center;
+    font-weight: 800;
+ }
+
+.articles .list .item .content p{
+    font-size: var(--font-texto);
+    font-weight: 400;
+    margin-top: 1rem;
+ }
+
+ .articles .list .item .content .ver-mas{
+    border-radius: 15px;
+    margin-top:1rem;
+    /* margin: 2rem 0; */
+ }
+ .articles .list .item .content .ver-mas a{
+    color:#08311c;
+    font-weight:bold;
+    text-decoration: none;
+ }
+
+ .articles .list .item .content .ver-mas a:hover{
+    color:var(--secondary-color);
+    cursor:pointer;
+    
+ }
+ .articles .list .item  .date::before {
+    content: "";
+    border-top: 0.125rem solid rgb(84, 86, 88,0.2);
+    width: 100%;
+    display: block;
+    padding-top: 1rem;
+}
+
+.articles .list .item .content,.date{
+    padding-bottom: 1rem;
+}
+
+ @media (min-width:767px)  or (max-width:1051) {
+    .main-content h2{
+        font-size: 42px;
+     }
+
+    .articles{
+        margin-top:7rem;
+        /* padding: 0 12rem; */
+        /* padding: 0 1rem; */
+     }  
+
+    .articles h1{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .articles .list{
+        gap:2rem;
+    }
+    .articles .list .item .item-img img{
+        width: 100%;
+        height: 300px;
+     }
+
+     .articles .list .item .content .ver-mas{
+        width:20%;
+        border-radius: 5px;
+        /* margin: 2rem 0; */
+     }
+     .footer{
+        margin-top: 10rem;
+     }
+     footer .contact .contact-resume p{
+        font-size: 20px;
+    }
+ }
+
+ @media (min-width:960px){
+    .articles h1{
+        padding-top: 5rem;
+    }
+
+    h2,h3{
+        font-size: 25px;
+     }
+
+     .content h1{
+        font-size: 40px;
+     }
+
+
+    
+}
+
+ @media (min-width:1052px){
+
+    .articles{
+        /* padding: 0 12rem; */
+    }
+
+    .articles .info{
+        height: 400px;
+    }
+
+    .articles .info p {
+        width:50%;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    
+    .articles .list{
+        padding: var(--section-padding-x2);
+        /* padding: 0 12rem; */
+    }
+ }
+ @media (min-width:1504px){
+    .articles{
+        /* padding: 0 13rem; */
+    }
+ }

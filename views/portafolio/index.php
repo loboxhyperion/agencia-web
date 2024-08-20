@@ -15,11 +15,11 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
    <!-- <link rel="stylesheet" href="style.css"> -->
-   <link rel="stylesheet" href="../../css/base.css">
-   <link rel="stylesheet" href="../../css/menu.css">
-   <link rel="stylesheet" href="../../css/portafolio.css">
-   <link rel="stylesheet" href="../../css/footer.css">
-   <link rel="stylesheet" href="../../css/whatsapp.css">
+   <link rel="stylesheet" href="../../assets/css/base.css">
+   <link rel="stylesheet" href="../../assets/css/menu.css">
+   <link rel="stylesheet" href="../../assets/css/portafolio.css">
+   <link rel="stylesheet" href="../../assets/css/footer.css">
+   <link rel="stylesheet" href="../../assets/css/whatsapp.css">
 </head>
 
 <body>
@@ -64,7 +64,7 @@
                     data-decripcion="1. Lorem Ipsum is simply dummy text"
                 >
                     <div class="item-content">
-                        <img src="../../img/animal1.png" alt="">
+                        <img src="../../assets/img/animal1.png" alt="">
                     </div>
                 </div>
     
@@ -74,7 +74,7 @@
                     data-decripcion="2. Lorem Ipsum is simply dummy text"
                 >
                     <div class="item-content">
-                        <img src="../../img/animal1.png" alt="">
+                        <img src="../../assets/img/animal1.png" alt="">
                     </div>
                 </div>
     
@@ -84,7 +84,7 @@
                     data-decripcion="3. Lorem Ipsum is simply dummy text"
                 >
                     <div class="item-content">
-                        <img src="../../img/animal1.png" alt="">
+                        <img src="../../assets/img/animal1.png" alt="">
                     </div>
                 </div>
     
@@ -94,7 +94,7 @@
                     data-decripcion="4. Lorem Ipsum is simply dummy text"
                 >
                     <div class="item-content">
-                        <img src="../../img/animal1.png" alt="">
+                        <img src="../../assets/img/animal1.png" alt="">
                     </div>
                 </div>
 
@@ -104,7 +104,7 @@
                     data-decripcion="4. Lorem Ipsum is simply dummy text"
                 >
                     <div class="item-content">
-                        <img src="../../img/animal1.png" alt="">
+                        <img src="../../assets/img/animal1.png" alt="">
                     </div>
                 </div>
 
@@ -114,7 +114,7 @@
                     data-decripcion="4. Lorem Ipsum is simply dummy text"
                 >
                     <div class="item-content">
-                        <img src="../../img/animal1.png" alt="">
+                        <img src="../../assets/img/animal1.png" alt="">
                     </div>
                 </div>
             
@@ -123,38 +123,20 @@
         </div>
         
     </section>
-<!--------------------------------------------CONTACTO------------------------------------------------------>
-<!--------------------------------------------CONTACTO------------------------------------------------------>
-<!--------------------------------------------CONTACTO------------------------------------------------------>
+ <!--------------------------------------------CONTACTO------------------------------------------------------>
+    <!--------------------------------------------CONTACTO------------------------------------------------------>
+    <!--------------------------------------------CONTACTO------------------------------------------------------>
+    <footer>
+
         <!--------------------------------------------POLITICAS------------------------------------------------->
         <!--------------------------------------------POLITICAS------------------------------------------------------>
-        <section class="politicas">
-            <div class="privacidad">
-                <a href="">Aviso Legal</a>
-                <a href="">Políticas de Privacidad</a>
-                <a href="">Políticas de Cookies</a>
-            </div>
-            <div class="redes">
-                <div class="content">
-                    <h3>Consulta en nuestras redes sociales</h3>
-                    <p>Para más información y novedades</p>
-                </div>
-                <div class="social">
-                    <a href="https://www.instagram.com/codee_enchanters/"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/company/code-enchanters/"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.facebook.com/people/Code-Enchanters/pfbid029TNHgvCN7NpKrgybe4wTkLEuoeAGtkZ8zFHP94fYwJerFMTXs6B4C6ZroGmrhggPl/"><i class="fa-brands fa-facebook"></i></a>
-                </div>
-            </div>
-            <div class="brand">
-                <img src="../../img/logo.png" alt="logo" class="logo">
-            </div>
-        </section>
+        <?php include('../../layout/footer.php'); ?>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>    
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
    <script src="https://kit.fontawesome.com/cb0cf16444.js" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
-   <script src="../../js/portafolio.js"></script>   
+   <script src="../../assets/js/portafolio.js"></script>   
 </body>
 </html>

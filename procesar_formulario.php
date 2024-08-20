@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Host = 'smtp.hostinger.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'info@codeenchanters.com';
-        $mail->Password = 'Code1234?';
+        $mail->Password = 'Code1234?.';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Puedes cambiar a ENCRYPTION_SMTPS si tu servidor SMTP requiere SSL
         $mail->Port = 587; // Ajusta el puerto según la configuración de tu servidor SMTP
 
@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->send();
 
         // Puedes redirigir a una página de "gracias" o mostrar un mensaje de éxito aquí
-        header("Location: pid.html");
+        header("Location:index.php");
         exit();
     } catch (Exception $e) {
         echo "Error al enviar el mensaje: {$mail->ErrorInfo}";

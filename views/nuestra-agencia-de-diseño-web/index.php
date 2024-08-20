@@ -15,11 +15,11 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
    <!-- <link rel="stylesheet" href="style.css"> -->
-   <link rel="stylesheet" href="../../css/base.css">
-   <link rel="stylesheet" href="../../css/menu.css">
-   <link rel="stylesheet" href="../../css/about.css">
-   <link rel="stylesheet" href="../../css/footer.css">
-   <link rel="stylesheet" href="../../css/whatsapp.css">
+   <link rel="stylesheet" href="../../assets/css/base.css">
+   <link rel="stylesheet" href="../../assets/css/menu.css">
+   <link rel="stylesheet" href="../../assets/css/about.css">
+   <link rel="stylesheet" href="../../assets/css/footer.css">
+   <link rel="stylesheet" href="../../assets/css/whatsapp.css">
 </head>
 
 <body>
@@ -57,7 +57,7 @@
                 <p>Nuestro equipo multidisciplinario ofrece una gama completa de servicios, desde <strong>SEO y SEM</strong> hasta <strong>estrategias digitales</strong> y <strong>mantenimiento de páginas web</strong>. Cada solución está diseñada para impulsar tu negocio y maximizar tu retorno de inversión.</p>
             </div>
             <div class="nosotros-imagen">
-                <img src="../../img/about.jpg" alt="Equipo de WebGenio Pro trabajando">
+                <img src="../../assets/img/about.jpg" alt="Equipo de WebGenio Pro trabajando">
             </div>
         </div>
 
@@ -91,7 +91,7 @@
                 </div>
             </div>
             <div class="brand">
-                <img src="../../img/logo.png" alt="logo" class="logo">
+                <img src="../../assets/img/logo.png" alt="logo" class="logo">
             </div>
         </section>
     </footer>

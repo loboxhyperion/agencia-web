@@ -1,0 +1,110 @@
+
+.contenedor{
+    width:100%;
+    background-image:unset;
+    min-height: unset;
+    height: unset;
+    /* padding: 10px 8%; */
+    color:var( --text-main-color);
+}
+.contenedor .nav{
+    height: 50px;
+    padding: 0 1rem;
+    padding-bottom: 2rem;
+    background:var(--third-color);
+}
+
+.contenedor .nav .nav_hamburguer,
+.nav_close{
+    cursor:pointer;
+    /* para posicionar los dos iconos dentro de la misma celdaa osea uno encima del otro */
+    grid-column: -2/-1;/* que se posiciones desde la penúltima linea hasta la última  */
+    grid-row: 1/2;
+    transition: .4s transform;
+    padding: 0.7rem;
+}
+/*--------------------------------------------------------------------------------------- ARTICLES SECTION-------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------- ARTICLES SECTION-------------------------------------------------------------------------*/
+.main-content .article{
+    overflow: hidden;
+    display:grid;
+    /* grid-template-columns: 1fr; */
+    padding: 1.5rem 0rem;
+    /* margin-bottom: 10rem;; */
+   
+}
+.main-content .article .item-title{
+  padding:0 1rem;
+}
+
+
+.main-content .article .item-title h1{
+    font-size: 2.7rem;
+    /* text-align: center; */
+    margin-bottom: 2rem;
+    color:#08311c;
+}
+
+.main-content .article .item-title p{
+    /* text-align: center; */
+    margin-bottom: 1.5rem;
+    color:#08311c;
+}
+
+
+
+.main-content .article .item-img img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    width: 100%;
+    height: 450px;
+}
+.main-content .article .autor{
+    margin-top:2rem;
+    padding:0 2rem;
+}
+
+.main-content .article .autor span{
+    color: rgb(84, 86, 88);
+}
+
+.main-content .article .autor,.item-content{
+    padding:0 1.5rem;
+}
+
+.main-content .article .autor,.item-content h2,h3,h4{
+    margin-top:2rem;
+}
+
+.main-content .article .item-content::before {
+    content: "";
+    border-top: 0.125rem solid rgb(138, 140, 142);
+    width: 2.5rem;
+    display: block;
+    margin: 1rem 0px;
+}
+.main-content .article .item-content  time{
+    font-size: 0.87rem;
+    margin-bottom: 1.5rem;
+    color:rgb(84, 86, 88);
+}
+.main-content .article .item-content p{
+    margin-top:1.5rem;
+    margin-bottom:1.5rem;
+    /* color:#08311c; */
+}
+
+@media (min-width:1010px){
+    .main-content .article{
+        /* width: 60%;
+        height: 100vh; */
+        padding: 10rem 16rem;
+        margin: 0 auto;
+    }
+    .main-content .article .autor,.item-content{
+        padding:0;
+    }
+
+    .main-content .article{
+        margin-bottom: 5rem;
+    }
+}
