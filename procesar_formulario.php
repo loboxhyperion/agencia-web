@@ -10,6 +10,7 @@ require 'PHPMailer/src/SMTP.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nombre = $_POST["nombre"];
     $email = $_POST["email"];
+    $servicio = $_POST["servicio"];
     $mensaje = $_POST["mensaje"];
 
     $mail = new PHPMailer(true);

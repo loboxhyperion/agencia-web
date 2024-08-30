@@ -17,7 +17,7 @@
 }
 
 .portafolio .portada{
-    background-image:url(../../img/portada.png);
+    background-image:url(../../assets/img/portada.png);
     background-size: cover;
     width: 100%;
     height: auto;
@@ -66,7 +66,19 @@
 
 .portafolio .categorias a.activo{
     color:var(--primary-color);
-   }
+}
+
+.portafolio .grid .item-text{
+    text-align: left;
+ }
+.portafolio .grid .item-text h2{
+   color:#9b9b9b;
+   margin: 1rem 0;
+   font-size: 20px;
+}
+.portafolio .grid .item-text h3{
+    font-size: 30px;
+ }
 
 
 /*  ---- ---- ---- GRID---- ---- ----*/
@@ -100,7 +112,9 @@
     height: auto;
     cursor: pointer;
     vertical-align: top;
+    border-radius:20px;
 }
+
 
 
 

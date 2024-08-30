@@ -5,7 +5,7 @@
         <div class="contenedores">
             <h2>Contáctanos y Lleva Tu Negocio al Siguiente Nivel</h2>
             <p class="subtitulo">Selecciona el servicio en el que estás interesado y permítenos ayudarte a transformar tu presencia digital.</p>
-            
+
             <form action="enviar-formulario.php" method="POST" class="formulario-contacto">
                 <div class="form-group">
                     <label for="nombre">Nombre Completo</label>
@@ -44,3 +44,6 @@
             </div>
         </div>
     </section>
+    <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.871061180358!2d-75.75900671631128!3d4.79216872845614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e387d798349e8af%3A0x7315336902cb64d9!2sToledo%20conjunto%20residencial%20-%20Pereira!5e0!3m2!1ses-419!2sco!4v1724777957818!5m2!1ses-419!2sco" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>

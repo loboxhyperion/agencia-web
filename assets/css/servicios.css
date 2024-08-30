@@ -84,7 +84,7 @@
     border-radius: 50%;
     display: grid;
     place-items: center;
-    transition: 0.5s;
+    transition: 0.9s;
 }
 
 .services .row:nth-child(2) .column:nth-child(1) .card:hover{

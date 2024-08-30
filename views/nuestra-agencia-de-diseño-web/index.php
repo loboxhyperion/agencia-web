@@ -57,7 +57,7 @@
                 <p>Nuestro equipo multidisciplinario ofrece una gama completa de servicios, desde <strong>SEO y SEM</strong> hasta <strong>estrategias digitales</strong> y <strong>mantenimiento de páginas web</strong>. Cada solución está diseñada para impulsar tu negocio y maximizar tu retorno de inversión.</p>
             </div>
             <div class="nosotros-imagen">
-                <img src="../../assets/img/about.jpg" alt="Equipo de WebGenio Pro trabajando">
+                <img src="../../assets/img/about.webp" alt="Equipo de WebGenio Pro trabajando">
             </div>
         </div>
 

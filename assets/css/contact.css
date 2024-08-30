@@ -7,24 +7,28 @@ body {
 }
 
 .contacto h2{
-    color: var(--four-color); /* Color principal */
+   /* color: var(--four-color); /* Color principal */
 }
 
 .contacto p{
-    color: var(--four-color); /* Color principal */
+   /* color: var(--four-color); /* Color principal */
 }
 
 .contacto {
-
+    background-image:url(../img/contacto.png);
+    background-size:cover;
     /* padding: 20px 15px; */
     padding:var(--section-padding);
-    background:#60289b;
+    /* background:#60289b; */
     text-align: center;
+    overflow: hidden;
 }
 
 .contenedores {
     width: 100%;
+    background-color: var(--four-color);
     margin: 0 auto;
+    padding: 3rem 1rem;
 }
 
 .subtitulo {
@@ -90,11 +94,11 @@ body {
 
 .contacto-info p {
     margin: 5px 0;
-    color: var(--four-color); /* Color principal */
+   /* color: var(--four-color); /* Color principal */
 }
 
 .contacto-info a {
-    color: var(--secondary-color); /* Color principal */
+    color: var(--primary-color); /* Color principal */
     text-decoration: none;
 }
 
@@ -102,16 +106,21 @@ body {
     text-decoration: underline;
 }
 
+.contacto .mapa iframe{
+    /* width:100%; */
+}
+
 /* Responsive Design */
 @media (min-width: 768px) {
+
+    .contacto {
+        display: flex;
+        padding:var(--section-padding-x2);
+    }
+    
     .contenedores {
         width: 50%;
         margin: 0 auto;
-    }
-    
-    .contacto{
-        padding:var(--section-padding-x2);
-        /* padding-top:10rem; */
     }
 
     .formulario-contacto {
@@ -130,5 +139,15 @@ body {
     .contacto-info {
         text-align: left;
     }
+
+    /*--------------------MAPA-------------------------------*/
+    /*--------------------MAPA-------------------------------*/
+    /*--------------------MAPA-------------------------------*/
+
+    .contacto .mapa iframe{
+       width:1200px;
+       height: auto;
+    }
+
 }
 

@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tu Agencia Integral de Diseño y Desarrollo Web: Potencia tu Presencia Digital | Code Enchanters</title>
     <meta name="description" content="Descubre nuestros servicios de diseño y desarrollo web, SEO/SEM, estrategias digitales y mantenimiento. Aumenta tu visibilidad en línea y atrae más clientes con nuestra agencia experta en soluciones digitales integrales y personalizadas.">
-    <meta name="keywords" content="Agencia de creación de páginas web, Diseño web profesional, Desarrollo web personalizado, SEO para páginas web, Estrategias digitales, SEM para negocios, Mantenimiento de páginas web, Cómo mejorar el SEO de mi página web, Qué es el SEM y cómo puede beneficiar a mi negocio, Agencia de diseño y desarrollo web, Por qué es importante el mantenimiento de una página web, Estrategias digitales efectivas, Cómo elegir una agencia de creación de páginas web, Mejor agencia de SEO y SEM, Qué incluye el diseño web profesional, Desarrollo de tiendas online, Cuánto cuesta crear una página web profesional, Agencia de diseño web en Colombia, Desarrollo web en Bogotá, SEO en Colombia, SEM en Bogotá, Estrategias digitales en Colombia, Mantenimiento de páginas web en Colombia, Creación de tiendas online en Colombia, Cómo mejorar el SEO en Colombia, Qué es el SEM en Bogotá, Agencia de desarrollo web en Colombia, Por qué es importante el mantenimiento web en Colombia, Estrategias digitales en Bogotá, Cómo elegir una agencia de páginas web en Colombia, Mejor agencia de SEO en Colombia, Qué incluye el diseño web en Bogotá, Desarrollo de tiendas online en Colombia, Cuánto cuesta crear una página web en Colombia, Agencia de diseño web en España, Desarrollo web en Madrid, SEO en España, SEM en Barcelona, Estrategias digitales en España, Mantenimiento de páginas web en España, Creación de tiendas online en España, Cómo mejorar el SEO en España, Qué es el SEM en Madrid, Agencia de desarrollo web en España, Por qué es importante el mantenimiento web en España, Estrategias digitales en Barcelona, Cómo elegir una agencia de páginas web en España, Mejor agencia de SEO en España, Qué incluye el diseño web en Madrid, Desarrollo de tiendas online en España, Cuánto cuesta crear una página web en España, WebGenio Pro, mejorar SEO de mi sitio web, qué es SEM, diseño web profesional, elegir estrategia digital, mantenimiento de página web, aumentar tráfico orgánico, servicios de agencia de diseño y desarrollo web, optimizar sitio web para motores de búsqueda, factores de velocidad de carga, crear campaña efectiva de publicidad en línea">
-
+    <!-- <meta name="keywords" content="Agencia de creación de páginas web, Diseño web profesional, Desarrollo web personalizado, SEO para páginas web, Estrategias digitales, SEM para negocios, Mantenimiento de páginas web, Cómo mejorar el SEO de mi página web, Qué es el SEM y cómo puede beneficiar a mi negocio, Agencia de diseño y desarrollo web, Por qué es importante el mantenimiento de una página web, Estrategias digitales efectivas, Cómo elegir una agencia de creación de páginas web, Mejor agencia de SEO y SEM, Qué incluye el diseño web profesional, Desarrollo de tiendas online, Cuánto cuesta crear una página web profesional, Agencia de diseño web en Colombia, Desarrollo web en Bogotá, SEO en Colombia, SEM en Bogotá, Estrategias digitales en Colombia, Mantenimiento de páginas web en Colombia, Creación de tiendas online en Colombia, Cómo mejorar el SEO en Colombia, Qué es el SEM en Bogotá, Agencia de desarrollo web en Colombia, Por qué es importante el mantenimiento web en Colombia, Estrategias digitales en Bogotá, Cómo elegir una agencia de páginas web en Colombia, Mejor agencia de SEO en Colombia, Qué incluye el diseño web en Bogotá, Desarrollo de tiendas online en Colombia, Cuánto cuesta crear una página web en Colombia, Agencia de diseño web en España, Desarrollo web en Madrid, SEO en España, SEM en Barcelona, Estrategias digitales en España, Mantenimiento de páginas web en España, Creación de tiendas online en España, Cómo mejorar el SEO en España, Qué es el SEM en Madrid, Agencia de desarrollo web en España, Por qué es importante el mantenimiento web en España, Estrategias digitales en Barcelona, Cómo elegir una agencia de páginas web en España, Mejor agencia de SEO en España, Qué incluye el diseño web en Madrid, Desarrollo de tiendas online en España, Cuánto cuesta crear una página web en España, WebGenio Pro, mejorar SEO de mi sitio web, qué es SEM, diseño web profesional, elegir estrategia digital, mantenimiento de página web, aumentar tráfico orgánico, servicios de agencia de diseño y desarrollo web, optimizar sitio web para motores de búsqueda, factores de velocidad de carga, crear campaña efectiva de publicidad en línea"> -->
+    <link rel="icon" href="assets/img/icon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
      <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -131,7 +131,7 @@
                         </div>
                         <h2 class="cabecera">DISEÑO PÁGINAS WEB<span>LANDING PAGE</span></h2>
                         <p class="precio"><span>Desde</span><strong>799.000</strong><span>COP+ IVA</span></p>
-                        <a href="views/Servicios/landing-page.html" class="info" >Ver Planes</a>
+                        <a href="views/Servicios/landing-page.php" class="info" >Ver Planes</a>
                         <br>
                         <br>
                         <p class="entrega">ENTREGA:15 DÍAS</p>
@@ -162,7 +162,7 @@
                         </div>
                         <h2 class="cabecera">DISEÑO PÁGINAS WEB <span>PERSONALIZADO</span></h2>
                         <p class="precio"><span>Desde </span><strong>1.099.000</strong><span>COP + IVA</span></p>
-                        <a href="views/Servicios/paginas-web.html" class="info" >Ver Planes</a>
+                        <a href="views/Servicios/paginas-web.php" class="info" >Ver Planes</a>
                         <br>
                         <br>
                         <p class="entrega">ENTREGA:1 MES</p>
@@ -196,7 +196,7 @@
                         </div>
                         <h2 class="cabecera">Estrategias digitales<br><span>Estrategia digital</span></h2>
                         <p class="precio"><span>Desde </span><strong>500,000</strong><span> COP/MES + IVA</span></p>
-                        <a href="views/Servicios/estrategias-digitales.html" class="info" >Ver Planes</a>
+                        <a href="views/Servicios/estrategias-digitales.php" class="info" >Ver Planes</a>
                         <br>
                         <br>
                         <p class="entrega">ENTREGA:PUEDE VARIAR</p>
@@ -249,8 +249,6 @@
                         </div>
                     </div>
 
-                    
-        
                 </div>
                 <!-- Controles -->
                 <!-- <div class="swiper-pagination"></div> -->
@@ -260,7 +258,7 @@
             </div>
         </section>
 
-
+       
 
     <!--------------------------------------------CONTACTO------------------------------------------------------>
     <!--------------------------------------------CONTACTO------------------------------------------------------>

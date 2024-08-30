@@ -44,7 +44,7 @@
         <section class="plan">
             <div class="row">
                 <div class="title landing">
-                    <h1 class="section-heading">Estretegias digitales</h1>
+                    <h1 class="section-heading">Estrategias digitales</h1>
                     <p>En la era digital, es vital tener una estrategia clara. Nuestras estrategias digitales están diseñadas para ayudarte a alcanzar tus objetivos de negocio mediante la combinación de SEO, SEM, marketing de contenido y redes sociales. Creamos planes personalizados que se alinean con tus metas y recursos.</p>
                     <br>
                     <br>

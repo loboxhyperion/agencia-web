@@ -63,9 +63,16 @@
                     data-etiquetas="Landing Pages landing pages  basica"
                     data-decripcion="1. Lorem Ipsum is simply dummy text"
                 >
+                <a href="../../index.php">
                     <div class="item-content">
-                        <img src="../../assets/img/animal1.png" alt="">
+                        <img src="../../assets/img/test.png" alt="">
                     </div>
+                    <div class="item-text">
+                        <h2>Landing page</h2>
+                        <h3>Elemento Tierra Tatto Company</h3>
+                    </div>
+                </a>
+                   
                 </div>
     
                 <div class="item" 
@@ -74,7 +81,11 @@
                     data-decripcion="2. Lorem Ipsum is simply dummy text"
                 >
                     <div class="item-content">
-                        <img src="../../assets/img/animal1.png" alt="">
+                        <img src="../../assets/img/test.png" alt="">
+                    </div>
+                    <div class="item-text">
+                        <h2>Landing page</h2>
+                        <h3>Elemento Tierra Tatto Company</h3>
                     </div>
                 </div>
     
@@ -84,37 +95,56 @@
                     data-decripcion="3. Lorem Ipsum is simply dummy text"
                 >
                     <div class="item-content">
-                        <img src="../../assets/img/animal1.png" alt="">
+                        <img src="../../assets/img/test.png" alt="">
+                    </div>
+                    <div class="item-text">
+                        <h2>Landing page</h2>
+                        <h3>Elemento Tierra Tatto Company</h3>
+                    </div>
+                </div>
+
+                <div class="item" 
+                    data-categoria="landing pages" 
+                    data-etiquetas="Landing Pages landing pages  basica"
+                    data-decripcion="1. Lorem Ipsum is simply dummy text"
+                >
+                <a href="diseño-web-elemento-tierra-tatoo-company.php">
+                    <div class="item-content">
+                        <img src="../../assets/img/test.png" alt="">
+                    </div>
+                    <div class="item-text">
+                        <h2>Landing page</h2>
+                        <h3>Elemento Tierra Tatto Company</h3>
+                    </div>
+                </a>
+                   
+                </div>
+    
+                <div class="item" 
+                    data-categoria="web perzonalizada" 
+                    data-etiquetas="Web Personalizada web perzonalizada"
+                    data-decripcion="2. Lorem Ipsum is simply dummy text"
+                >
+                    <div class="item-content">
+                        <img src="../../assets/img/test.png" alt="">
+                    </div>
+                    <div class="item-text">
+                        <h2>Landing page</h2>
+                        <h3>Elemento Tierra Tatto Company</h3>
                     </div>
                 </div>
     
                 <div class="item" 
-                    data-categoria="animales" 
-                    data-etiquetas="animales leones"
-                    data-decripcion="4. Lorem Ipsum is simply dummy text"
+                    data-categoria="paisajes" 
+                    data-etiquetas="paisajes montañas mar playas"
+                    data-decripcion="3. Lorem Ipsum is simply dummy text"
                 >
                     <div class="item-content">
-                        <img src="../../assets/img/animal1.png" alt="">
+                        <img src="../../assets/img/test.png" alt="">
                     </div>
-                </div>
-
-                <div class="item" 
-                    data-categoria="animales" 
-                    data-etiquetas="animales leones"
-                    data-decripcion="4. Lorem Ipsum is simply dummy text"
-                >
-                    <div class="item-content">
-                        <img src="../../assets/img/animal1.png" alt="">
-                    </div>
-                </div>
-
-                <div class="item" 
-                    data-categoria="animales" 
-                    data-etiquetas="animales leones"
-                    data-decripcion="4. Lorem Ipsum is simply dummy text"
-                >
-                    <div class="item-content">
-                        <img src="../../assets/img/animal1.png" alt="">
+                    <div class="item-text">
+                        <h2>Landing page</h2>
+                        <h3>Elemento Tierra Tatto Company</h3>
                     </div>
                 </div>
             

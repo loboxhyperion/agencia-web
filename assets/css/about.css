@@ -17,6 +17,8 @@ h1 span {
 .contenedora {
     background-image:url(../img/portada.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     /* height: 200px; */
     padding: var(--section-padding) ;
